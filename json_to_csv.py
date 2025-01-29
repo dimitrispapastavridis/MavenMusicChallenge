@@ -1,7 +1,11 @@
 import pandas as pd
 import json
 
-json_files = ["Streaming_History_Audio_2019-2020_0.json", "Streaming_History_Audio_2020-2021_1.json", "Streaming_History_Audio_2021-2022_2.json", "Streaming_History_Audio_2022-2025_3.json"]
+json_files = ["Streaming_History_Audio_2019-2020_0.json",
+              "Streaming_History_Audio_2020-2021_1.json",
+              "Streaming_History_Audio_2021-2022_2.json",
+              "Streaming_History_Audio_2022-2025_3.json"
+             ]
 
 dataframes = []
 

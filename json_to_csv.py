@@ -31,4 +31,4 @@ merged_df = merged_df[['spotify_track_uri',
 
 merged_df['spotify_track_uri'] = merged_df['spotify_track_uri'].apply(lambda x: x.split(':')[-1] if isinstance(x, str) else None)
 
-merged_df.to_csv("merged_data3.csv", index=False, encoding="utf-8")
+merged_df.to_csv("merged_data.csv", index=False, encoding="utf-8")
